@@ -17,27 +17,12 @@
 PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/razer/pearlyn/proprietary/bin/PktRspTest:system/bin/PktRspTest \
-    vendor/razer/pearlyn/proprietary/bin/StoreKeybox:system/bin/StoreKeybox \
     vendor/razer/pearlyn/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/razer/pearlyn/proprietary/bin/athdiag:system/bin/athdiag \
     vendor/razer/pearlyn/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/razer/pearlyn/proprietary/bin/btnvtool_razer:system/bin/btnvtool_razer \
-    vendor/razer/pearlyn/proprietary/bin/cld-fwlog-netlink:system/bin/cld-fwlog-netlink \
-    vendor/razer/pearlyn/proprietary/bin/cld-fwlog-parser:system/bin/cld-fwlog-parser \
-    vendor/razer/pearlyn/proprietary/bin/cld-fwlog-record:system/bin/cld-fwlog-record \
-    vendor/razer/pearlyn/proprietary/bin/cnd:system/bin/cnd \
     vendor/razer/pearlyn/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/razer/pearlyn/proprietary/bin/cnss_diag:system/bin/cnss_diag \
-    vendor/razer/pearlyn/proprietary/bin/diag_callback_client:system/bin/diag_callback_client \
-    vendor/razer/pearlyn/proprietary/bin/diag_dci_sample:system/bin/diag_dci_sample \
-    vendor/razer/pearlyn/proprietary/bin/diag_klog:system/bin/diag_klog \
-    vendor/razer/pearlyn/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/razer/pearlyn/proprietary/bin/diag_qshrink4_daemon:system/bin/diag_qshrink4_daemon \
-    vendor/razer/pearlyn/proprietary/bin/diag_socket_log:system/bin/diag_socket_log \
-    vendor/razer/pearlyn/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
-    vendor/razer/pearlyn/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/razer/pearlyn/proprietary/bin/dun-server:system/bin/dun-server \
-    vendor/razer/pearlyn/proprietary/bin/efsks:system/bin/efsks \
     vendor/razer/pearlyn/proprietary/bin/ethtool:system/bin/ethtool \
     vendor/razer/pearlyn/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/razer/pearlyn/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
@@ -46,33 +31,18 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/bin/iwconfig:system/bin/iwconfig \
     vendor/razer/pearlyn/proprietary/bin/iwlist:system/bin/iwlist \
     vendor/razer/pearlyn/proprietary/bin/iwpriv:system/bin/iwpriv \
-    vendor/razer/pearlyn/proprietary/bin/ks:system/bin/ks \
-    vendor/razer/pearlyn/proprietary/bin/mdm_helper:system/bin/mdm_helper \
-    vendor/razer/pearlyn/proprietary/bin/mdm_helper_proxy:system/bin/mdm_helper_proxy \
     vendor/razer/pearlyn/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/razer/pearlyn/proprietary/bin/mm-qjpeg-dec-test:system/bin/mm-qjpeg-dec-test \
-    vendor/razer/pearlyn/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
-    vendor/razer/pearlyn/proprietary/bin/mm-qomx-idec-test:system/bin/mm-qomx-idec-test \
-    vendor/razer/pearlyn/proprietary/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
     vendor/razer/pearlyn/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/razer/pearlyn/proprietary/bin/n_smux:system/bin/n_smux \
-    vendor/razer/pearlyn/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/razer/pearlyn/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/razer/pearlyn/proprietary/bin/oemwvtest:system/bin/oemwvtest \
     vendor/razer/pearlyn/proprietary/bin/pktlogconf:system/bin/pktlogconf \
-    vendor/razer/pearlyn/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/razer/pearlyn/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
-    vendor/razer/pearlyn/proprietary/bin/qcks:system/bin/qcks \
-    vendor/razer/pearlyn/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/razer/pearlyn/proprietary/bin/qseecom_sample_client:system/bin/qseecom_sample_client \
     vendor/razer/pearlyn/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/razer/pearlyn/proprietary/bin/radish:system/bin/radish \
-    vendor/razer/pearlyn/proprietary/bin/ssr_diag:system/bin/ssr_diag \
-    vendor/razer/pearlyn/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/razer/pearlyn/proprietary/bin/test_diag:system/bin/test_diag \
     vendor/razer/pearlyn/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/razer/pearlyn/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
-    vendor/razer/pearlyn/proprietary/bin/wdsdaemon:system/bin/wdsdaemon \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Bluetooth_cal.acdb \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_General_cal.acdb:system/etc/acdbdata/Liquid/Liquid_General_cal.acdb \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Global_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Global_cal.acdb \
@@ -80,31 +50,8 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Hdmi_cal.acdb \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Headset_cal.acdb \
     vendor/razer/pearlyn/proprietary/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb:system/etc/acdbdata/Liquid/Liquid_Speaker_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Bluetooth_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_General_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_General_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Global_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Global_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Handset_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Handset_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Hdmi_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Hdmi_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Headset_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Headset_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Speaker_cal.acdb:system/etc/acdbdata/MTP/apq8084-tomtom-mtp-snd-card/MTP_WCD9330_Speaker_cal.acdb \
-    vendor/razer/pearlyn/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/razer/pearlyn/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/razer/pearlyn/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/razer/pearlyn/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/razer/pearlyn/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/razer/pearlyn/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/razer/pearlyn/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/razer/pearlyn/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/razer/pearlyn/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/razer/pearlyn/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/razer/pearlyn/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/razer/pearlyn/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/razer/pearlyn/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/razer/pearlyn/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
@@ -132,12 +79,9 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/lib/libgoogle_tagger_aah_jni.so:system/lib/libgoogle_tagger_aah_jni.so \
     vendor/razer/pearlyn/proprietary/lib/libiw.so:system/lib/libiw.so \
     vendor/razer/pearlyn/proprietary/lib/libqcmediaplayer.so:system/lib/libqcmediaplayer.so \
-    vendor/razer/pearlyn/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/razer/pearlyn/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/razer/pearlyn/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/razer/pearlyn/proprietary/vendor/bin/sound_trigger_test:system/vendor/bin/sound_trigger_test \
     vendor/razer/pearlyn/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/razer/pearlyn/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b00:system/vendor/firmware/adsp.b00 \
     vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b01:system/vendor/firmware/adsp.b01 \
     vendor/razer/pearlyn/proprietary/vendor/firmware/adsp.b02:system/vendor/firmware/adsp.b02 \
@@ -228,12 +172,10 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -241,11 +183,9 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libSecureUILib.so:system/vendor/lib/libSecureUILib.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -259,22 +199,10 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/libavenhancements.so:system/vendor/lib/libavenhancements.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -282,18 +210,12 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmhttpstack.so:system/vendor/lib/libmmhttpstack.so \
@@ -303,13 +225,10 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmrtpdecoder.so:system/vendor/lib/libmmrtpdecoder.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
@@ -323,8 +242,6 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
@@ -337,20 +254,13 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libuhid.so:system/vendor/lib/libuhid.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/razer/pearlyn/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/mediadrm/libprmediadrmdecrypt.so:system/vendor/lib/mediadrm/libprmediadrmdecrypt.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/mediadrm/libprmediadrmplugin.so:system/vendor/lib/mediadrm/libprmediadrmplugin.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -358,17 +268,9 @@ PRODUCT_COPY_FILES += \
     vendor/razer/pearlyn/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/razer/pearlyn/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
-
 PRODUCT_PACKAGES += \
+    libtime_genoff \
     TimeService \
-    ConnectivityExt \
     QPerformance \
-    WfdCommon \
-    cneapiclient \
-    com.qti.dpmframework \
-    com.quicinc.cne \
-    dpmapi \
     oem-services \
-    qcmediaplayer \
-    tcmclient \
-    libtime_genoff
+    qcmediaplayer
